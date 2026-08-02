@@ -1,0 +1,30 @@
+{
+  "name": "custom-epub-creator-skill",
+  "version": "1.0.0",
+  "description": "Installer for custom-epub-creator AI Agent Skill",
+  "main": "bin/install.js",
+  "bin": {
+    "custom-epub-creator-skill": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "SKILL.md",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahmudulRubel/Custom-ePub-Creator.git"
+  },
+  "keywords": [
+    "ai-skill",
+    "gemini",
+    "antigravity",
+    "claude",
+    "epub",
+    "kindle",
+    "ebook",
+    "pdf"
+  ],
+  "author": "Mahmudul Rubel",
+  "license": "MIT"
+}

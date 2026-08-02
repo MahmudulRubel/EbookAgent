@@ -2,18 +2,34 @@
 
 An AI Agent Skill for creating, formatting, and packaging valid **ePub 3** e-books and **Kindle PDFs** complete with custom cover art, structured chapter navigation (NCX & Nav), embedded CSS typography, table of contents, running headers, and dynamic page numbering.
 
-## Installation
+---
 
-### Global Installation (All Projects)
-Clone this repository into your global AI skills directory:
+## Quick Installation
 
+### Option 1: One-Line NPX Command (Recommended)
+
+Run directly via `npx` to install globally for all projects:
+
+```bash
+npx custom-epub-creator-skill
+```
+
+Or install locally in your current project's `.agents/skills` folder:
+
+```bash
+npx custom-epub-creator-skill --local
+```
+
+---
+
+### Option 2: Direct Git Clone
+
+#### Global Installation (All Projects)
 ```bash
 git clone https://github.com/MahmudulRubel/Custom-ePub-Creator.git ~/.gemini/config/skills/custom-epub-creator
 ```
 
-### Workspace Installation (Single Project)
-Clone this repository into your project's `.agents/skills` directory:
-
+#### Workspace Installation (Single Project)
 ```bash
 git clone https://github.com/MahmudulRubel/Custom-ePub-Creator.git .agents/skills/custom-epub-creator
 ```
@@ -37,6 +53,21 @@ When triggered, the AI agent will:
 3. Build ePub 3 file with proper NCX TOC and CSS styling.
 4. Compile PDF e-book with 6x9 trade layout and dynamic running headers.
 5. Validate page metrics and structural integrity.
+
+---
+
+## Publishing to NPM (Owner Note)
+
+To enable the `npx custom-epub-creator-skill` command globally on NPM:
+
+1. Login to npm:
+   ```bash
+   npm login
+   ```
+2. Publish package:
+   ```bash
+   npm publish --access public
+   ```
 
 ---
 
