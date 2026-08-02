@@ -47,16 +47,3 @@ When creating a book using this skill:
    - Use dynamic two-pass canvas (`NumberedCanvas`) for running headers and page footers (`Page X of Y`).
    - Enforce proper image flowable dimensions (`340x530` max height) to prevent ReportLab `LayoutError`.
 5. **Validation**: Verify that both `.epub` and `.pdf` files build without error and check page metrics using `pypdf`.
-
----
-
-## Output Architecture
-
-```
-custom-epub-creator/
-├── SKILL.md                          - Primary instructions & metadata
-├── scripts/
-│   └── epub_builder.py              - Reusable Python builder script template
-└── references/
-    └── epub_spec_guide.md           - Technical guidelines for ePub 3 & Kindle PDF formatting
-```

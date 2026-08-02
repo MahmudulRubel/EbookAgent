@@ -1,0 +1,10 @@
+# Output files generated during book creation
+*.pdf
+*.epub
+cover.png
+
+# Specific project output scripts
+generate_*.py
+
+# Local workspace agent settings
+.agents/
