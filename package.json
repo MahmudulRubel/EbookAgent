@@ -1,6 +1,6 @@
 {
   "name": "@mahmudulrubel/custom-epub-creator-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Installer for custom-epub-creator AI Agent Skill",
   "main": "bin/install.js",
   "bin": {
