@@ -11,13 +11,13 @@ An AI Agent Skill for creating, formatting, and packaging valid **ePub 3** e-boo
 Run directly via `npx` to install globally for all projects:
 
 ```bash
-npx custom-epub-creator-skill
+npx @mahmudulrubel/custom-epub-creator-skill
 ```
 
 Or install locally in your current project's `.agents/skills` folder:
 
 ```bash
-npx custom-epub-creator-skill --local
+npx @mahmudulrubel/custom-epub-creator-skill --local
 ```
 
 ---
@@ -53,21 +53,6 @@ When triggered, the AI agent will:
 3. Build ePub 3 file with proper NCX TOC and CSS styling.
 4. Compile PDF e-book with 6x9 trade layout and dynamic running headers.
 5. Validate page metrics and structural integrity.
-
----
-
-## Publishing to NPM (Owner Note)
-
-To enable the `npx custom-epub-creator-skill` command globally on NPM:
-
-1. Login to npm:
-   ```bash
-   npm login
-   ```
-2. Publish package:
-   ```bash
-   npm publish --access public
-   ```
 
 ---
 
